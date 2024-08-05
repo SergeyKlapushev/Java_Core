@@ -1,3 +1,4 @@
+package sem2;
 public class DZ2 {
     public static void main(String[] args) {
         Integer[] arr = {2, 2, 0, 0};
