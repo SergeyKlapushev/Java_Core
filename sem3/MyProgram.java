@@ -3,6 +3,7 @@ package sem3;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Date;
 
 public class MyProgram {
     @SuppressWarnings("static-access")
@@ -20,7 +21,6 @@ public class MyProgram {
         staff.add(slesar3);
 
         terem.SalaryUp(terem, 1000000.00);
-        
         System.err.println("\n"+terem.getAllInfo());
     }
 
