@@ -7,8 +7,8 @@ public class Director extends Employee{
     }
 
     public static void SalaryUp(Employee employee, Double HowHight){
-        if(employee.GetPost() != Post.Директор){
-            employee.SetSalary(employee.GetSalary() + HowHight);
+        if(employee.getPost() != Post.Директор){
+            employee.setSalary(employee.getSalary() + HowHight);
         }
     }
 }
